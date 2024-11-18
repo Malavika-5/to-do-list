@@ -1,0 +1,122 @@
+/* Galaxy Background */
+body {
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #1b2735 0%, #090a0f 100%);
+    color: white;
+    overflow: hidden;
+  }
+  
+  body {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  background: url("https://img3.wallspic.com/crops/4/8/3/5/25384/25384-spitzer_space_telescope-galaxy-universe-nasa-cosmos-7680x4320.jpg") no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the full viewport */
+}
+
+  
+  .todo-container {
+    background: rgba(25, 25, 112, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0080, 0 0 30px #ff0080;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #1b2735;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 5px #ffffff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(45deg, #ff0080, #ff9900);
+    box-shadow: 0 0 10px #ff0080, 0 0 20px #ff9900;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #ff9900, #ff0080);
+    box-shadow: 0 0 15px #ff0080, 0 0 30px #ff9900;
+    transform: scale(1.1);
+  }
+  
+  /* Task list */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  li span {
+    font-size: 1rem;
+  }
+  
+  li button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff4444;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ff4444;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  li button:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+    transform: scale(1.1);
+  }
+  
